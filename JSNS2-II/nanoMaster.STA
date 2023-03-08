@@ -1,0 +1,75 @@
+
+ROM used:   2090/16384 (13%)
+            2090/16384 (13%) including unused fragments
+
+            0.6 Average locations per line
+            2.6 Average locations per statement
+
+RAM used:   43/768 (6%) at main() level
+            47/768 (6%) worst case
+
+Stack used: 1 worst case (1 in main + 0 for interrupts)
+Stack size: 31
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+  833   309  39  nanoMaster.c
+  843     0   0  ..\..\..\..\..\Program Files (x86)\PICC\Devices\18LF4420.h
+ 1352   359  45  ..\..\..\..\..\Program Files (x86)\PICC\Drivers\stdlib.h
+   32     0   0  ..\..\..\..\..\Program Files (x86)\PICC\Drivers\stddef.h
+  435   129  16  ..\..\..\..\..\Program Files (x86)\PICC\Drivers\string.h
+   28     0   0  ..\..\..\..\..\Program Files (x86)\PICC\Drivers\ctype.h
+----- -----
+ 3523   797 Total
+
+Page ROM  %  RAM    Vol Diff  Functions:
+---- --- --- ---    --- ----  ----------
+0     38   1    1             @delay_ms1
+0     26   1    1             @delay_us1
+0     22   1    0             @GETCH_BIU_1
+0     64   2    1             @PUTCHAR_2_
+0     32   1    5             @MUL1616
+0    296   7    1   1389  3.9  MAIN
+0     62   1    0    267  1.8  flash1
+0     82   2    0    370  1.8  flash2
+0    102   2    0    477  1.9  flash3
+0    340   8    0   1586  3.4  singleselect
+0      4   0    0             @const975
+0     34   1    2             @PSTRINGC_9600_31766_31767
+0      4   0    0             @const980
+0      4   0    0             @const981
+0      4   0    0             @const982
+0      4   0    0             @const983
+0     46   1    0    195  1.7  continuous
+0    120   3    0    601  6.1  run
+0     60   1    0    270  2.2  heighthi
+0     60   1    0    270  2.2  heightlo
+0     22   1    0     76  1.5  stop
+0     60   1    0    270  2.2  triggerdelay5
+0     60   1    0    270  2.2  triggerdelay025
+0     60   1    0    270  2.2  numberhi
+0     60   1    0    270  2.2  numberlo
+0    300   7    2   1507  5.3  loadheight
+0     94   2    0    409  2.3  usdelay
+0     26   1    0     92  1.3  reset
+ Inline         0             @cinit1
+
+Program metrics:
+    Functions               17
+    Statements              797
+    Comments                1389
+    Volume (V)              14027
+    Difficulty (D)          44.5
+    Effort to implement (E) 623841
+    Time to implement (T)   9 hours, 38 minutes
+    Est Delivered Bugs (B)  2
+    Cyclomatic Complexity   35
+    Maintainability (MI)    123
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00002     4  0  
+00004-03FFE  2086  14294  
+
+
+

@@ -1,0 +1,109 @@
+[Directories]
+Include=
+Library=
+LinkerScript=
+output=
+
+[defines]
+enabled=0
+chip=1
+D1=
+V1=
+buildcount=9
+
+[fileformats]
+forcecoff=1
+debug=4
+error=2
+object=0
+list=0
+scratch=0
+sta=1
+tre=1
+expandtree=0
+allerrors=1
+allwarnings=1
+stayupne=3
+stayupoe=0
+
+[PROJECT]
+Target=nanoMaster.hex
+Development_Mode=
+Processor_Text=PIC18LF4420
+ToolSuite=CCS
+CCSVersion=5.072
+Compiler=PCH
+
+[Target Data]
+BuildTool=C-COMPILER
+OptionString=+FH
+AdditionalOptionString=
+BuildRequired=1
+FileList=nanoMaster.c
+
+[nanoMaster.c]
+Type=4
+Path=
+FileList=
+BuildTool=
+OptionString=
+AdditionalOptionString=
+
+[mru-list]
+1=nanoMaster.c
+
+[Windows]
+0=0000 %S 0 0 796 451 3 0
+
+
+[CompilerVersion]
+Fixed=
+
+[ProjectLog]
+Days=5
+D1=21-09-2022
+D1_L=7
+D1_L1=[63192]Project Closed.
+D1_L2=[63193]Project Opened.
+D1_L3=[67496]Started Editing.
+D1_L4=[67797]Stopped Editing.
+D1_L5=[67807]Started Editing.
+D1_L6=[68397]Stopped Editing.
+D1_L7=[68455]Started Editing.
+D2=26-09-2022
+D2_L=1
+D2_L1=[39078]Stopped Editing.
+D3=29-09-2022
+D3_L=1
+D3_L1=[54778]Project Closed.
+D4=30-09-2022
+D4_L=3
+D4_L1=[61384]Project Opened.
+D4_L2=[61389]Started Editing.
+D4_L3=[61723]Stopped Editing.
+D5=03-10-2022
+D5_L=10
+D5_L1=[47041]Project Opened.
+D5_L2=[47197]Started Editing.
+D5_L3=[47404]Stopped Editing.
+TotalEdit=5
+TotalDebug=0
+D5_E=5
+D5_D=0
+D5_L4=[47404]Project Closed.
+D5_L5=[47415]Project Opened.
+D5_L6=[47424]Started Editing.
+D5_L7=[47731]Stopped Editing.
+D5_L8=[48246]Started Editing.
+D5_L9=[48548]Stopped Editing.
+D5_L10=[67716]Project Closed.
+
+[Opened Files]
+1=nanoMaster.c
+t1=49
+Count=2
+2=..\..\..\..\..\Program Files (x86)\PICC\Devices\18F4520.h
+t2=1
+[Units]
+Count=1
+1=nanoMaster (main)
