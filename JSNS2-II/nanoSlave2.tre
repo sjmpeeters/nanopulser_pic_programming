@@ -1,0 +1,34 @@
+ÀÄnanoSlave2
+   ÀÄMAIN  0/108  Ram=0
+      ÃÄ@cinit1  (Inline)  Ram=0
+      ÃÄnumberlo  0/6  Ram=0
+      ÃÄnumberhi  0/6  Ram=0
+      ÃÄheighthi  0/6  Ram=0
+      ÃÄheightlo  0/6  Ram=0
+      ÃÄloadheight  0/99  Ram=2
+      ÃÄcontinuous  0/44  Ram=0
+      ³  ÃÄ@delay_us1  0/15  Ram=1
+      ³  ÃÄ@delay_us1  0/15  Ram=1
+      ³  ÃÄ@delay_us1  0/15  Ram=1
+      ³  ÃÄ@delay_us1  0/15  Ram=1
+      ³  ÀÄ@delay_ms1  0/20  Ram=1
+      ÃÄtrigdel5nS  0/47  Ram=0
+      ÃÄtrigdel025nS  0/47  Ram=0
+      ÃÄrun  0/93  Ram=0
+      ³  ÃÄ@MUL88  (Inline)  Ram=2
+      ³  ÃÄ@delay_us1  0/15  Ram=1
+      ³  ÃÄ@delay_us1  0/15  Ram=1
+      ³  ÃÄ@delay_us1  0/15  Ram=1
+      ³  ÃÄ@delay_us1  0/15  Ram=1
+      ³  ÀÄ@delay_ms1  0/20  Ram=1
+      ÃÄusdelay  0/15  Ram=0
+      ÃÄflash1  0/24  Ram=1
+      ³  ÃÄ@delay_ms1  0/20  Ram=1
+      ³  ÀÄ@delay_ms1  0/20  Ram=1
+      ÃÄflash2  0/45  Ram=1
+      ³  ÃÄ@delay_ms1  0/20  Ram=1
+      ³  ÃÄ@delay_ms1  0/20  Ram=1
+      ³  ÃÄ@delay_ms1  0/20  Ram=1
+      ³  ÀÄ@delay_ms1  0/20  Ram=1
+      ÀÄflash2  0/45  Ram=1
+         ÀÄ*

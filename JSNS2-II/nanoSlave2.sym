@@ -1,0 +1,109 @@
+004-005 @WRITE_PROGRAM_MEMORY8.P1
+004-005 @READ_PROGRAM_MEMORY8.P2
+015     CCP_1
+015     CCP_1_LOW
+016     CCP_1_HIGH
+01A     RCREG
+020-021 strtok.save
+022-025 _Randseed
+026.0   trigbit
+027     command
+028     address1
+029-02A height
+02B-02C dtoabit
+02D-02E num
+02F-030 i
+031     x
+032     cmd
+033     addrs1
+034     heighth
+035     heightl
+036     trigdelay5
+037     trigdelay025
+038     usdelh
+039     usdell
+03A     numhi
+03B     numlo
+03C     c
+03D     @MUL88.P1
+03D     @delay_us1.P2
+03D     flash1.@SCRATCH1
+03D     flash2.@SCRATCH1
+03D     loadheight.@SCRATCH1
+03E     @MUL88.P1
+03E     @delay_ms1.P2
+03E     loadheight.@SCRATCH2
+077     @SCRATCH
+078     @SCRATCH
+078     _RETURN_
+079     @SCRATCH
+07A     @SCRATCH
+09C.6   C1OUT
+09C.7   C2OUT
+10D-10E @WRITE_PROGRAM_MEMORY8.P1
+10D-10E @READ_PROGRAM_MEMORY8.P2
+
+ROM Allocation:
+000004  numberlo
+00000A  numberhi
+000010  heighthi
+000016  heightlo
+00001C  loadheight
+00007F  @delay_us1
+00008E  @delay_ms1
+0000A2  continuous
+0000CE  trigdel5nS
+0000FD  trigdel025nS
+00012C  run
+000130  @MUL88
+000189  usdelay
+000198  flash1
+0001B0  flash2
+0001DD  @cinit1
+0001DD  MAIN
+0001F3  @cinit2
+0136  StrtoulGO
+0136  StrtolGO
+01FF  loop
+0183  jump1
+00C4  jump2
+
+Project Directory:
+    C:\Users\earle\OneDrive\Documents\jsns2\
+
+Project Files:
+    nanoSlave2.c                                            [12-Oct-22 12:42  CRC=620701C1]
+    ..\..\..\..\..\Program Files (x86)\PICC\Devices\16F88.h [04-May-17 21:12  CRC=6639ECB2]
+    ..\..\..\..\..\Program Files (x86)\PICC\Drivers\stdlib.h [29-Jun-16 10:34  CRC=7E9CC16B]
+    ..\..\..\..\..\Program Files (x86)\PICC\Drivers\stddef.h [05-Sep-14 12:47  CRC=897CEC6C]
+    ..\..\..\..\..\Program Files (x86)\PICC\Drivers\string.h [26-Mar-15 13:34  CRC=C4814297]
+    ..\..\..\..\..\Program Files (x86)\PICC\Drivers\ctype.h [03-Jan-08 15:55  CRC=2D1F019F]
+
+Source signature=EF19E21F
+Program memory checksum=0000
+Program memory CRC=0000
+Hex file CRC=4F57
+
+Units:
+    nanoSlave2 (main)
+
+Compiler Settings:
+    Processor:      PIC16F88
+    Pointer Size:   16
+    ADC Range:      0-255
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+    Compile Mode:       CCS5
+
+Output Files:
+    XREF file:   nanoSlave2.xsym
+    Errors:      nanoSlave2.err
+    Ext Symbols: nanoSlave2.esym
+    INHX8:       nanoSlave2.hex
+    Symbols:     nanoSlave2.sym
+    List:        nanoSlave2.lst
+    Debug/COFF:  nanoSlave2.cof
+    Project:     nanoSlave2.ccspjt
+    Call Tree:   nanoSlave2.tre
+    Statistics:  nanoSlave2.STA

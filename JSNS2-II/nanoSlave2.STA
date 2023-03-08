@@ -1,0 +1,64 @@
+
+ROM used:   585/4096 (14%)
+            585/4096 (14%) including unused fragments
+
+            0.2 Average locations per line
+            0.9 Average locations per statement
+
+RAM used:   34/368 (9%) at main() level
+            36/368 (10%) worst case
+
+Stack used: 0 worst case (0 in main + 0 for interrupts)
+Stack size: 8
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+  323   149  23  nanoSlave2.c
+  647     0   0  ..\..\..\..\..\Program Files (x86)\PICC\Devices\16F88.h
+ 1352   359  56  ..\..\..\..\..\Program Files (x86)\PICC\Drivers\stdlib.h
+   32     0   0  ..\..\..\..\..\Program Files (x86)\PICC\Drivers\stddef.h
+  435   129  20  ..\..\..\..\..\Program Files (x86)\PICC\Drivers\string.h
+   28     0   0  ..\..\..\..\..\Program Files (x86)\PICC\Drivers\ctype.h
+----- -----
+ 2817   637 Total
+
+Page ROM  %  RAM    Vol Diff  Functions:
+---- --- --- ---    --- ----  ----------
+0     20   3    1             @delay_ms1
+0     15   3    1             @delay_us1
+ Inline         2             @MUL88
+0    108  18    0    922  4.3  MAIN
+0     24   4    1     94  1.2  flash1
+0     45   8    1    181  1.3  flash2
+0      6   1    0     24  1.5  heighthi
+0      6   1    0     24  1.5  heightlo
+0     99  17    2    616  6.2  loadheight
+0     47   8    0    297  4.2  trigdel5nS
+0     47   8    0    297  4.2  trigdel025nS
+0      6   1    0     24  1.5  numberhi
+0      6   1    0     24  1.5  numberlo
+0     93  16    0    390  5.6  run
+0     15   3    0     63  1.6  usdelay
+0     44   8    0    323  3.7  continuous
+ Inline         0             @cinit1
+
+Program metrics:
+    Functions               13
+    Statements              637
+    Comments                1021
+    Volume (V)              5242
+    Difficulty (D)          38.9
+    Effort to implement (E) 203882
+    Time to implement (T)   3 hours, 9 minutes
+    Est Delivered Bugs (B)  1
+    Cyclomatic Complexity   23
+    Maintainability (MI)    122
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00003     4  0  
+00004-007FF   581  1463  
+00800-00FFF     0  2048  
+
+
+

@@ -1,0 +1,123 @@
+[Directories]
+Include=
+Library=
+LinkerScript=
+output=
+
+[defines]
+enabled=0
+chip=1
+D1=
+V1=
+buildcount=30
+
+[fileformats]
+forcecoff=1
+debug=4
+error=2
+object=0
+list=0
+scratch=0
+sta=1
+tre=1
+expandtree=0
+allerrors=1
+allwarnings=1
+stayupne=3
+stayupoe=0
+
+[PROJECT]
+Target=nanoSlave2.hex
+Development_Mode=
+Processor_Text=PIC16F88
+ToolSuite=CCS
+CCSVersion=5.072
+Compiler=PCM
+
+[Target Data]
+BuildTool=C-COMPILER
+OptionString=+FM
+AdditionalOptionString=
+BuildRequired=1
+FileList=nanoSlave2.c
+
+[nanoSlave2.c]
+Type=4
+Path=
+FileList=
+BuildTool=
+OptionString=
+AdditionalOptionString=
+
+[mru-list]
+1=nanoSlave2.c
+
+[Windows]
+0=0000 %S 0 0 796 451 3 0
+
+
+[CompilerVersion]
+Fixed=
+
+[Opened Files]
+1=nanoSlave2.c
+t1=29
+Count=1
+
+[ProjectLog]
+Days=9
+D1=29-09-2022
+D1_L=8
+D1_L1=[54986]Project Closed.
+D1_L2=[54986]Project Opened.
+D1_L3=[56202]Started Editing.
+D1_L4=[56508]Stopped Editing.
+D1_L5=[72976]Started Editing.
+D1_L6=[72992]Stopped Editing.
+TotalEdit=1081
+TotalDebug=0
+D1_E=1
+D1_D=0
+D1_L7=[72992]Project Closed.
+D1_L8=[72992]Project Opened.
+D2=30-09-2022
+D2_L=1
+D2_L1=[61384]Project Closed.
+D3=03-10-2022
+D3_L=6
+D3_L1=[67716]Project Opened.
+D3_L2=[67722]Started Editing.
+D3_L3=[68147]Stopped Editing.
+D3_L4=[68265]Started Editing.
+D3_L5=[68567]Stopped Editing.
+D3_L6=[68614]Started Editing.
+D4=04-10-2022
+D4_L=3
+D4_L1=[46542]Stopped Editing.
+D4_L2=[46600]Started Editing.
+D4_L3=[46902]Stopped Editing.
+D5=07-10-2022
+D5_L=4
+D5_L1=[36202]Started Editing.
+D5_L2=[36521]Stopped Editing.
+D5_L3=[37606]Started Editing.
+D5_L4=[37906]Stopped Editing.
+D6=11-10-2022
+D6_L=2
+D6_L1=[57372]Started Editing.
+D6_L2=[58293]Stopped Editing.
+D7=12-10-2022
+D7_L=2
+D7_L1=[45724]Started Editing.
+D7_L2=[46024]Stopped Editing.
+D8=16-10-2022
+D8_E=1080
+D8_D=0
+D8_L=1
+D8_L1=[46433]Project Closed.
+D9=13-02-2023
+D9_L=1
+D9_L1=[30318]Project Opened.
+[Units]
+Count=1
+1=nanoSlave2 (main)
